@@ -85,6 +85,7 @@ header {
 .navigation {
     height: 6rem;
     line-height: 6rem;
+    background-color: #fff;
 }
 
 .logo h1 {
