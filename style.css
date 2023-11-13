@@ -54,10 +54,12 @@ li {
 /* ======== Header Design ====== */
 
 
-.header {
-    position: sticky;
+header {
+    position: fixed;
+    width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
+    z-index: 1;
 }
 
 .top-nav {
@@ -87,6 +89,7 @@ li {
 
 .logo h1 {
     font-size: 1.5rem;
+    color: #6cbe02;
 }
 
 .nav-center {
@@ -895,7 +898,9 @@ li {
     padding: 1.6rem;
     display: table;
     overflow: hidden;
-    background-color: var(--white);
+    background-image: url("popup-img.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .popup-close {
@@ -953,7 +958,7 @@ li {
 
 .right-content h1 {
     font-size: 4rem;
-    color: var(--black);
+    color: var(--white);
     margin-bottom: 1.6rem;
 
 
@@ -965,13 +970,14 @@ li {
 
 .right-content h3 {
     margin-bottom: 2rem;
+    color: orange;
 }
 
 
 
 .right-content p {
     font-size: 1.6rem;
-    color: #555;
+    color: #fff;
     margin-bottom: 1.6rem;
 }
 
